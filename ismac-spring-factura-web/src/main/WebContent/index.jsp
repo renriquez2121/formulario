@@ -8,7 +8,16 @@
 </head>
 <body>
 
-<h1>Hola mundo desde Tomcat</h1>
+<h1>factura Productos</h1>
+
+	   <ul>
+			<li><a href="${pageContext.request.contextPath}/">HOME</a></li>
+			<li><a href="${pageContext.request.contextPath}/clientes/findAll">Clientes</a></li>
+			<li><a href="${pageContext.request.contextPath}/productos/findAll">Productos</a></li>
+			<li><a href="${pageContext.request.contextPath}/categorias/findAll">Categorias</a></li>
+			<li><a href="${pageContext.request.contextPath}/reportes">Reportes</a></li>
+			<li><a href="${pageContext.request.contextPath}/contacto">Contacto</a></li>
+	   </ul>
 
 </body>
 </html>
